@@ -1,5 +1,6 @@
 
 Codebook for course project Getting and cleaning data
+=====================================================
 
 
 Dataset is derived from the "Human Activity Recognition Using Smartphones Data Set".More info can be found under: 
