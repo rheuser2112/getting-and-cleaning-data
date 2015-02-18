@@ -2,30 +2,36 @@
 Project work for getting and cleaning data class
 
 # Project consists of 3 parts 
-## This readme.md document
-## The R script which must be sourced from your WD 
-## Codebook in a text format
+### This readme.md document
+### The R script which must be sourced from your WD 
+### Codebook in a text format
 
 # Train and Test data is given from
  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
  
-## 1. Main purpose is to merge training and test data set
-## 2. Add subjects and activities (descriptive)
-## 3. Cleaning feature names 
+#### 1. Main purpose is to merge training and test data set
+#### 2. Add subjects and activities (descriptive)
+#### 3. Cleaning feature names 
 
-# Working directory must look like that
+### Current working directory must see the following structure
 
-├── UCI HAR Dataset
-  │   ├── README.txt
-  │   ├── activity_labels.txt
-  │   ├── features.txt
-  │   ├── features_info.txt
-  │   ├── test
-  │   └── train
-  └── run_analysis.R
+ UCI HAR Dataset
+   README.txt
+   activity_labels.txt
+   features.txt
+   features_info.txt
+   test
+     X_test.txt
+	 y_test.txt
+	 subject_test.txt
+   train
+     subject_train.txt 
+     X_train.txt 
+	 y_train.txt
+   run_analysis.R
   
-# R Script 
+### R Script 
 
 * depends on libraries plyr and dplyr
 * reads test and training data into data frames
